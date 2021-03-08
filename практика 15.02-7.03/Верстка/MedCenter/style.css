@@ -1,0 +1,1683 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/*шапка*/
+header {
+    background: url("img/wave-block-one.png") no-repeat center/cover;
+    height: 180px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /*border: 3px solid black;*/
+}
+
+.logo img {
+    width: 80px;
+    height: 105px;
+    margin-top: 15px;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    margin-right: 45px;
+}
+
+
+.content-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color {
+    color: #4D81CF;
+}
+
+/*шапка*/
+
+
+/*блок 1*/
+.heading-one {
+    color: #4D81CF;
+    /*margin-left: 3%;*/
+    margin-top: 25%;
+    font-size: 18px;
+}
+
+.text-p-one {
+    text-align: center;
+    margin-left: 1%;
+    /*margin-right: 20%;*/
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+.button-one a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.button-one {
+    margin-top: 15%;
+    margin-left: 14%;
+}
+
+.pic-one {
+    width: 100%;
+}
+
+.content-block-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-block-one {
+    width: 40%;
+    margin-top: 3%;
+}
+
+/*блок 1*/
+
+
+/*блок 2*/
+.heading-two h1 {
+    color: #4D81CF;
+    margin-top: 7%;
+}
+
+.heading-two {
+    text-align: center;
+}
+
+.heading-two h3 {
+    margin-top: 1%;
+}
+
+.heading-two h4 {
+    margin-top: 3%;
+    font-weight: 200;
+}
+
+.heading-two-down h4 {
+    margin-top: 3%;
+    font-weight: 200;
+}
+
+.services-pic {
+    width: 80px;
+    height: 80px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.information {
+    text-align: center;
+}
+
+.information:hover {
+    transform: scale(1.1);
+}
+
+.record {
+    text-align: center;
+}
+
+.record:hover {
+    transform: scale(1.1);
+}
+
+.find-doctor:hover {
+    transform: scale(1.1);
+}
+
+.pharmacy:hover {
+    transform: scale(1.1);
+}
+
+.help:hover {
+    transform: scale(1.1);
+}
+
+.consultation:hover {
+    transform: scale(1.1);
+}
+
+.button-two a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 15px 80px 15px 80px;
+}
+
+.button-two {
+    margin-top: 8%;
+    margin-left: 37%;
+}
+
+/*блок 2*/
+
+
+/*блок 3*/
+.heading-three h1 {
+    color: #4D81CF;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.heading-three h3 {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.heading-three hr {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+.heading-three h4 {
+    margin-top: 5%;
+    font-weight: 200;
+    text-align: center;
+}
+
+.heading-three {
+    /*margin-top: 10%;*/
+}
+
+.content-block-three {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.pic-block-three img {
+    width: 350px;
+    margin-top: 12%;
+}
+
+
+.button-three a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 15px 80px 15px 80px;
+}
+
+.button-three {
+    margin-left: 22%;
+    margin-top: 10%;
+}
+
+/*блок 3*/
+
+
+/*блок 4*/
+.heading-four {
+    color: #4D81CF;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.text-p {
+    text-align: center;
+    margin-top: 5%;
+    line-height: 30px;
+}
+
+.pic-block-four {
+    width: 380px;
+    height: 350px;
+}
+
+.content-block-four {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.button-four a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 15px 80px 15px 80px;
+}
+
+.button-four {
+    margin-top: 6%;
+}
+
+/*блок 4*/
+
+
+/*слайдер*/
+.heading-five {
+    color: #4D81CF;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.item{
+    width: 100%;
+    height: 300px;
+    background: #F1F1F1;
+}
+
+.item img{
+    width: 15%;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.item p{
+    color: #186BE7;
+    margin-left: 45%;
+}
+
+
+/* Собственно сам слайдер */
+.slider{
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+/*.slider .item img {*/
+/*    object-fit: cover;*/
+/*    width: 100%;*/
+/*    height: 300px;*/
+/*    border: none !important;*/
+/*    box-shadow: none !important;*/
+/*}*/
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+
+    top: 90%;
+    width: auto;
+    /*margin-top: -22px;*/
+    padding: 16px;
+    color: #186BE7;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+/*.slider .prev:hover,*/
+/*.slider .next:hover {*/
+/*    background-color: rgba(0, 0, 0, 0.8);*/
+/*}*/
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #1165E2;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 23%;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+    margin-top: 18%;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+/*слайдер*/
+
+
+/*блок 6*/
+.heading-six {
+    color: #4D81CF;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.article-1 {
+    /*background-image: url(img/article1.png);*/
+    width: 300px;
+    height: 450px;
+    margin-top: 5%;
+    border-radius: 12px;
+    background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.50%),
+    url(img/article1.png) no-repeat, center/cover;
+}
+
+.article-1:hover {
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+.article-1 h4 {
+    color: white;
+    padding-top: 90%;
+    text-align: center;
+}
+
+.article-1 p {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.article-1 p a {
+    color: white;
+}
+
+
+.article-2 {
+    /*background-image: url(img/article2.png);*/
+    width: 300px;
+    height: 450px;
+    margin-top: 5%;
+    border-radius: 12px;
+    background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.62%),
+    url(img/article2.png) no-repeat, center/cover;
+}
+
+.article-2:hover {
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+.article-2 h4 {
+    color: white;
+    padding-top: 90%;
+    text-align: center;
+}
+
+.article-2 p {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.article-2 p a {
+    color: white;
+}
+
+.article-3 {
+    /*background-image: url(img/article3.png);*/
+    width: 300px;
+    height: 450px;
+    margin-top: 5%;
+    border-radius: 12px;
+    background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.62%),
+    url(img/article3.png) no-repeat, center/cover;
+}
+
+.article-3:hover {
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+.article-3 h4 {
+    color: white;
+    padding-top: 90%;
+    text-align: center;
+}
+
+.article-3 p {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.article-3 p a {
+    color: white;
+}
+
+.content-block-six {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-five a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 15px 80px 15px 80px;
+}
+
+.button-five {
+    margin-top: 6%;
+    margin-left: 40%;
+}
+
+/*блок 6*/
+
+
+/*Вторая страница*/
+.header-article {
+    color: #4D81CF;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.first-article {
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.first-article h3 {
+    color: #4D81CF;
+}
+
+#more {
+    display: none;
+}
+
+#more3 {
+    display: none;
+}
+
+#btn {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 1%;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+}
+
+#btn3 {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 1%;
+
+    background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+    padding: 5px 20px 5px 20px;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+.article-pic {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.article-pic img {
+    border-radius: 12px;
+    width: 789px;
+    height: 450px;
+}
+
+.second-article {
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.second-article h3 {
+    color: #4D81CF;
+}
+
+.three-article {
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.three-article h3 {
+    color: #4D81CF;
+}
+
+footer {
+    background: url(img/VectorFooter.png) no-repeat center/cover;
+    width: 100%;
+    height: 420px;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding-top: 22%;
+    margin-left: 5%;
+}
+
+.text-footer-one p {
+    color: white;
+    font-size: 12px;
+}
+
+.text-footer-one a {
+    color: white;
+    font-size: 12px;
+}
+
+.text-footer-two p {
+    color: white;
+    font-size: 12px;
+}
+
+.text-footer-three p {
+    color: white;
+    font-size: 12px;
+
+}
+
+.text-footer-three a {
+    color: white;
+    font-size: 12px;
+
+}
+
+.logo-footer img {
+    width: 40%;
+    height: 40%;
+}
+
+
+@media screen and (min-width: 1960px) {
+    /*первый блок*/
+    header {
+        background: url("img/wave-block-one.png") no-repeat center/cover;
+        height: 250px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: 125px;
+        margin-top: 30px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+        margin-right: 30px;
+    }
+
+    .heading-one {
+        color: #4D81CF;
+        /*margin-left: 3%;*/
+        margin-top: 30%;
+        font-size: 35px;
+    }
+
+    .text-p-one {
+        text-align: center;
+        margin-left: 1%;
+        /*margin-right: 20%;*/
+        margin-top: 5%;
+        font-size: 40px;
+    }
+
+    .button-one a {
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #e21122;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 20px 20px 20px 20px;
+
+    }
+
+    .button-one {
+        margin-top: 15%;
+        margin-left: 17%;
+    }
+
+    .pic-one {
+        width: 100%;
+    }
+
+    /*второй блок*/
+    .heading-two {
+        text-align: center;
+        font-size: 35px;
+        padding-top: 10%;
+    }
+
+    .heading-two h3 {
+        margin-top: 3%;
+        font-size: 45px;
+    }
+
+    .heading-two h4 {
+        margin-top: 7%;
+        font-weight: 200;
+        font-size: 50px;
+    }
+
+    .heading-two-down h4 {
+        margin-top: 7%;
+        font-weight: 200;
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+    .services-pic {
+        width: 110px;
+        height: 110px;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8%;
+    }
+
+    .services p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .button-two a {
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 20px 80px 20px 80px;
+    }
+
+    /*третий блок*/
+    .heading-three {
+        margin-top: 10%;
+    }
+
+    .heading-three h1 {
+        color: #4D81CF;
+        text-align: center;
+        padding-bottom: 10%;
+        font-size: 45px;
+    }
+
+    .heading-three h3 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .heading-three h4 {
+        margin-top: 5%;
+        font-weight: 200;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .pic-block-three img {
+        width: 650px;
+        margin-top: 12%;
+    }
+
+    .button-three a {
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 20px 80px 20px 80px;
+    }
+
+    /*четвертый блок*/
+    .heading-four {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 13%;
+        font-size: 35px;
+    }
+
+    .text-p {
+        text-align: center;
+        margin-top: 5%;
+        /*line-height: 30px;*/
+        font-size: 30px;
+    }
+
+    .pic-block-four img {
+        width: 470px;
+        height: 440px;
+    }
+
+    .content-block-four {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+    }
+
+    .button-four a {
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 20px 80px 20px 80px;
+    }
+
+    .button-four {
+        margin-top: 6%;
+    }
+
+    /*пятый блок*/
+    /*шестой блок*/
+    .heading-six {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 7%;
+        font-size: 35px;
+    }
+
+    .article-1 {
+        /*background-image: url(img/article1.png);*/
+        width: 400px;
+        height: 650px;
+        margin-top: 5%;
+        border-radius: 12px;
+        background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.50%),
+        url(img/article1.png) no-repeat, center/cover;
+    }
+
+    .article-1 h4 {
+        color: white;
+        padding-top: 90%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .article-1 p {
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 25px;
+    }
+
+    .article-2 {
+        /*background-image: url(img/article2.png);*/
+        width: 400px;
+        height: 650px;
+        margin-top: 5%;
+        border-radius: 12px;
+        background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.62%),
+        url(img/article2.png) no-repeat, center/cover;
+    }
+
+    .article-2 h4 {
+        color: white;
+        padding-top: 90%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .article-2 p {
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 25px;
+    }
+
+    .article-3 {
+        /*background-image: url(img/article3.png);*/
+        width: 400px;
+        height: 650px;
+        margin-top: 5%;
+        border-radius: 12px;
+        background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.62%),
+        url(img/article3.png) no-repeat, center/cover;
+    }
+
+    .article-3 h4 {
+        color: white;
+        padding-top: 90%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .article-3 p {
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 25px;
+    }
+
+    .content-block-six {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button-five a {
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 20px 80px 20px 80px;
+    }
+
+    /*футер*/
+    footer {
+        background: url(img/VectorFooter.png) no-repeat center/cover;
+        width: 100%;
+        height: 700px;
+    }
+
+    .text-footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+        padding-top: 20%;
+        margin-left: 5%;
+    }
+
+    .text-footer-one p {
+        color: white;
+        font-size: 30px;
+    }
+
+    .text-footer-one a {
+        color: white;
+        font-size: 30px;
+    }
+
+    .text-footer-two p {
+        color: white;
+        font-size: 30px;
+    }
+
+    .text-footer-three p {
+        color: white;
+        font-size: 30px;
+    }
+
+    .text-footer-three a {
+        color: white;
+        font-size: 30px;
+    }
+
+    .logo-footer img {
+        width: 95%;
+        height: 45%;
+    }
+
+
+    /*слайдер*/
+    .heading-five {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 7%;
+        font-size: 35px;
+    }
+
+    .item{
+        width: 100%;
+        height: 450px;
+        background: #F1F1F1;
+    }
+
+    .item img{
+        width: 15%;
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+
+    .item p{
+        color: #186BE7;
+        margin-left: 43%;
+        font-size: 35px;
+    }
+
+
+    /* Собственно сам слайдер */
+    .slider{
+        max-width: 80%;
+        position: relative;
+        margin: auto;
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+
+    /* Кнопки вперед и назад */
+    .slider .prev, .slider .next {
+        cursor: pointer;
+        position: absolute;
+        margin-top:8%;
+
+        top: 90%;
+        width: auto;
+        /*margin-top: -22px;*/
+        padding: 16px;
+        color: #186BE7;
+        font-weight: bold;
+        font-size: 24px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* При наведении на кнопки добавляем фон кнопок */
+    /*.slider .prev:hover,*/
+    /*.slider .next:hover {*/
+    /*    background-color: rgba(0, 0, 0, 0.8);*/
+    /*}*/
+    /* Заголовок слайда */
+    .slideText {
+        position: absolute;
+        color: #1165E2;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 23%;
+        /* Выравнивание текста по горизонтали и по вертикали*/
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* Кружочки */
+    .slider-dots {
+        text-align: center;
+        margin-top: 23%;
+    }
+    .slider-dots_item{
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 0 2px;
+        background-color: #ddd;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active,
+    .slider-dots_item:hover {
+        background-color: #aaa;
+    }
+    /* Анимация слайдов */
+    .slider .item {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /*слайдер*/
+
+
+    /*вторая страница*/
+    .header-article {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 7%;
+        font-size: 40px;
+    }
+
+    .first-article p {
+        font-size: 40px;
+    }
+
+    .first-article {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    .first-article h3 {
+        color: #4D81CF;
+        font-size: 45px;
+    }
+
+    #more {
+        display: none;
+    }
+
+    #more3 {
+        display: none;
+    }
+
+    #btn {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        border: none;
+        margin-top: 1%;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    #btn3 {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        border: none;
+        margin-top: 1%;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    button,
+    button:active,
+    button:focus {
+        outline: none;
+    }
+
+    .article-pic {
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+
+    .article-pic img {
+        border-radius: 12px;
+        width: 1300px;
+        height: 850px;
+    }
+
+    .second-article {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    .second-article h3 {
+        color: #4D81CF;
+        font-size: 45px;
+    }
+
+    .second-article p {
+        font-size: 40px;
+    }
+
+    .three-article {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+
+    .three-article h3 {
+        color: #4D81CF;
+        font-size: 40px;
+    }
+
+    .three-article p {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /*первый блок*/
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 13px;
+        margin-right: 25px;
+    }
+
+    .heading-one {
+        color: #4D81CF;
+        /*margin-left: 3%;*/
+        margin-top: 25%;
+        font-size: 12px;
+    }
+
+    .text-p-one {
+        text-align: center;
+        margin-left: 1%;
+        /*margin-right: 20%;*/
+        margin-top: 10%;
+        font-size: 10px;
+    }
+
+    .button-one a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 12px 12px 12px 12px;
+
+    }
+
+    .button-one {
+        margin-top: 15%;
+        margin-left: 14%;
+    }
+
+    .pic-one {
+        width: 100%;
+    }
+
+
+    /*второй блок*/
+    .heading-two {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .heading-two h3 {
+        margin-top: 1%;
+        font-size: 12px;
+    }
+
+    .heading-two h4 {
+        margin-top: 3%;
+        font-weight: 200;
+    }
+
+    .services-pic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8%;
+    }
+
+    .services p {
+        font-size: 10px;
+    }
+
+    .button-two a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 12px 80px 12px 80px;
+    }
+
+
+    /*третий блок*/
+    .heading-three h1 {
+        color: #4D81CF;
+        text-align: center;
+        padding-bottom: 10%;
+        font-size: 18px;
+    }
+
+    .heading-three h3 {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .heading-three h4 {
+        margin-top: 5%;
+        font-weight: 200;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    .pic-block-three img {
+        width: 300px;
+        margin-top: 12%;
+    }
+
+
+    .button-three a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 12px 80px 12px 80px;
+    }
+
+
+    /*четвертый блок*/
+    .heading-four {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 8%;
+        font-size: 12px;
+    }
+
+    .text-p {
+        text-align: center;
+        margin-top: 5%;
+        /*line-height: 30px;*/
+        font-size: 15px;
+    }
+
+    .pic-block-four {
+        width: 270px;
+        height: 240px;
+    }
+
+    .content-block-four {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .button-four a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 12px 80px 12px 80px;
+    }
+
+    .button-four {
+        margin-top: 6%;
+    }
+
+
+    /*пятый блок*/
+    /*шестой блок*/
+    .heading-six {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 7%;
+        font-size: 12px;
+    }
+
+    .article-1 {
+        /*background-image: url(img/article1.png);*/
+        width: 200px;
+        height: 350px;
+        margin-top: 5%;
+        border-radius: 12px;
+        background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.50%),
+        url(img/article1.png) no-repeat, center/cover;
+    }
+
+
+    .article-1 h4 {
+        color: white;
+        padding-top: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .article-1 p {
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 12px;
+    }
+
+
+    .article-2 {
+        /*background-image: url(img/article2.png);*/
+        width: 200px;
+        height: 350px;
+        margin-top: 5%;
+        border-radius: 12px;
+        background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.62%),
+        url(img/article2.png) no-repeat, center/cover;
+    }
+
+
+    .article-2 h4 {
+        color: white;
+        padding-top: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .article-2 p {
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 12px;
+    }
+
+    .article-3 {
+        /*background-image: url(img/article3.png);*/
+        width: 200px;
+        height: 350px;
+        margin-top: 5%;
+        border-radius: 12px;
+        background: linear-gradient(190deg, rgba(255, 255, 255, 0) 0%, #2B5799 100.62%),
+        url(img/article3.png) no-repeat, center/cover;
+    }
+
+    .article-3 h4 {
+        color: white;
+        padding-top: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .article-3 p {
+        color: white;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 12px;
+    }
+
+    .content-block-six {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .button-five a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+
+        background: linear-gradient(90deg, #48B6FF 27.92%, #186BE7 89.74%), #1165E2;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50px;
+        padding: 12px 80px 12px 80px;
+    }
+
+    /*слайдер*/
+    .heading-five {
+        color: #4D81CF;
+        text-align: center;
+        margin-top: 7%;
+        font-size: 12px;
+    }
+
+    .item{
+        width: 100%;
+        height: 200px;
+        background: #F1F1F1;
+    }
+
+    .item img{
+        width: 15%;
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+
+    .item p{
+        color: #186BE7;
+        margin-left: 45%;
+    }
+
+
+    /* Собственно сам слайдер */
+    .slider{
+        max-width: 80%;
+        position: relative;
+        margin: auto;
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+
+    /* Кнопки вперед и назад */
+    .slider .prev, .slider .next {
+        cursor: pointer;
+        position: absolute;
+
+        top: 90%;
+        width: auto;
+        /*margin-top: -22px;*/
+        padding: 16px;
+        color: #186BE7;
+        font-weight: bold;
+        font-size: 24px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+    .slider .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* При наведении на кнопки добавляем фон кнопок */
+    /*.slider .prev:hover,*/
+    /*.slider .next:hover {*/
+    /*    background-color: rgba(0, 0, 0, 0.8);*/
+    /*}*/
+    /* Заголовок слайда */
+    .slideText {
+        position: absolute;
+        color: #1165E2;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 23%;
+        /* Выравнивание текста по горизонтали и по вертикали*/
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* Кружочки */
+    .slider-dots {
+        text-align: center;
+        margin-top: 18%;
+    }
+    .slider-dots_item{
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 0 2px;
+        background-color: #ddd;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active,
+    .slider-dots_item:hover {
+        background-color: #aaa;
+    }
+    /* Анимация слайдов */
+    .slider .item {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /*слайдер*/
+
+
+    /*футер*/
+    footer {
+        background: url(img/VectorFooter.png) no-repeat center/cover;
+        width: 100%;
+        height: 420px;
+    }
+
+    .text-footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+        padding-top: 30%;
+        margin-left: 5%;
+    }
+
+    .text-footer-one p {
+        color: white;
+        font-size: 12px;
+    }
+
+    .text-footer-one a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .text-footer-two p {
+        color: white;
+        font-size: 12px;
+    }
+
+    .text-footer-three p {
+        color: white;
+        font-size: 12px;
+
+    }
+
+    .text-footer-three a {
+        color: white;
+        font-size: 12px;
+
+    }
+
+    .logo-footer img {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+

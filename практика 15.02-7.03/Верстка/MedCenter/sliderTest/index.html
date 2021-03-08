@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="slider">
+        <div class="item">
+            <img src="../img/client.png" alt="" class="client-1">
+            <p>Арина</p>
+            <div class="slideText">Замечательная клиника! Врачи профессионалы своего дела!</div>
+        </div>
+
+        <div class="item">
+            <img src="../img/client-2.png" alt="" class="client-2">
+            <p>Ирина</p>
+            <div class="slideText">Ломала руку, теперь как новенькая!</div>
+        </div>
+
+        <div class="item">
+            <img src="../img/client-3.png" alt="" class="client-3">
+            <p>Добрыня</p>
+            <div class="slideText">Волшебники, а не врачи!</div>
+        </div>
+
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+
+    <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="main.js"></script>
+</div>
+</body>
+</html>
